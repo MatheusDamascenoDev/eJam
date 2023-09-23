@@ -224,12 +224,14 @@ export const Container = styled.div`
           display: flex;
           flex-direction: column;
           align-items: center;
+          justify-content: center;
           gap: 0.75rem;
           width: 100%;
 
           button {
             display: flex;
             align-items: center;
+            justify-content: center;
             width: 100%;
             padding: 1rem 3.5rem;
             background: #59ae43;
@@ -265,6 +267,7 @@ export const Container = styled.div`
             .order-benefits-top {
               display: flex;
               align-items: center;
+              justify-content: center;
               border-bottom: 1px solid #cfcfcf;
               padding-bottom: 0.75rem;
               width: 100%;
